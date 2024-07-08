@@ -21,15 +21,14 @@ from pyrogram.errors import FloodWait
 # -------------------------------------------------------------------------------------
 
 
-start_txt = """<b> 🤖 𝖦𝗋𝗈𝗎𝗉 𝖲𝖾𝖼𝗎𝗋𝗂𝗍𝗒 𝖱𝗈𝖻𝗈𝗍 🛡️ </b>
+start_txt = """<b> 🤖 ᴄᴏᴘʏʀɪɢʜᴛ ᴘʀᴏᴛᴇᴄᴛɪᴏɴ ʙᴏᴛ 🛡 </b>
 
-𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝗍𝗈 𝖦𝗋𝗈𝗎𝗉𝖲𝖾𝖈𝗎𝗋𝗂𝗍𝗒𝖱𝗈𝖻𝗈𝗍, 𝗒𝗈𝗎𝗋 𝗏𝗂𝗀𝗂𝗅𝖺𝗇𝗍 𝗀𝗎𝖺𝗋𝖾𝗂𝗇 𝗂𝗇 𝗍𝗁𝗂𝗌 𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗆 𝗌𝗉𝖺𝖼𝖾! 𝖮𝗎𝗋 𝗆𝗂𝗌𝗌𝗂𝗈𝗇 𝗂𝗌 𝗍𝗈 𝖾𝗇𝗌𝗎𝗋𝖾 𝖺 𝗌𝖾𝖼𝗎𝗋𝖾 𝖺𝗇𝖽 𝗉𝗅𝖾𝖺𝗌𝖺𝗇𝗍 𝖾𝗇𝗏𝗂𝗋𝗈𝗇𝗆𝖾𝗇𝗍 𝖿𝗈𝗋 𝖾𝗏𝖾𝗋𝗒𝗈𝗇𝖾. 𝖥𝗋𝗈𝗆 𝖼𝗈𝗉𝗒𝗋𝗂𝗀𝗁𝗍 𝗉𝗋𝗈𝗍𝖾𝖼𝗍𝂢𝗂𝗈𝗇 𝗍𝗈 𝗆𝖺𝗂𝗇𝗍𝖺𝗂𝗇𝗂𝗇𝗀 𝖽𝖾𝖼𝗈𝗋𝗎𝗆, 𝗐𝖾'𝗏𝖾 𝗀𝗈𝗍 𝗂𝗍 𝖼𝗈𝗏𝖾𝗋𝖾𝖽.
-
-𝖥𝖾𝖾𝗅 𝖿𝗋𝖾𝖾 𝗍𝗈 𝗋𝖾𝗉𝗈𝗿𝗍 𝖺𝗇𝗒 𝖼𝗈𝗇𝖼𝖾𝗋𝗇𝗌, 𝖺𝗇𝖽 𝗅𝖾𝗍'𝗌 𝗐𝗈𝗋𝗄 𝗍𝗈𝗀𝖾𝗍𝗁𝖾𝗋 𝗍𝗈 𝗆𝖺𝗄𝖾 𝗍𝗁𝗂𝗌 𝖼𝗈𝗆𝗆𝗎𝗇𝗂𝗍𝗒 𝗍𝗁𝗋𝗂𝗏𝖾! 🤝🔐 """
+ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ ᴘʀᴏᴛᴇᴄᴛɪᴏɴ ʙᴏᴛ ᴡᴇ ᴀʀᴇ ʜᴇʀᴇ ʙʏ ᴛᴏ ᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ ғʀᴏᴍ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs ✅. ᴡᴇ ᴘʀᴏᴠɪᴅᴇ ʙᴇsᴛ sᴀғᴇᴛʏ ғᴇᴀᴛᴜʀᴇs ʟɪᴋᴇ ᴡᴇ ᴘʀᴏʙʜɪᴛᴇᴅ❌ [ ᴘᴏʀɴɢʀᴀᴘʜɪᴄ ᴡᴏʀᴅs ᴄᴘᴏʏʀɪɢʜᴛ ᴡᴏʀᴅs] ᴀɴᴅ ᴍᴀɴʏ ᴍᴏʀᴇ ɪᴜsᴛ ᴍᴀᴋᴇ ᴀᴅᴍɪɴ ᴏᴜʀ ʙᴏᴛ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ sᴇᴄᴜʀᴇ ɪᴛ ᴡɪᴛʜ ʜɪɢʜ sᴀғᴇᴛʏ🔐 """
 
 @app.on_message(filters.command("start"))
 async def start(_, msg):
     buttons = [
+        
         [ 
           InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
         ],
@@ -40,7 +39,7 @@ async def start(_, msg):
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://graph.org/file/7f8ebddf56559ac69d31b.jpg",
+        photo="https://te.legra.ph/file/75f0e657402c53c23cdd1.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
@@ -49,7 +48,7 @@ async def start(_, msg):
 gd_buttons = [              
         [
             InlineKeyboardButton("ᴏᴡɴᴇʀ", user_id=OWNER_ID),
-            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/HEROKUFREECC"),    
+            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/allanime_moviehindi"),    
         ]
         ]
 
@@ -119,12 +118,12 @@ async def handle_message(client, message):
         logging.info(f"Deleting message with ID {message.id}")
         await message.delete()
       #  user_mention = from_user.mention
-        await message.reply_text(f"@{message.from_user.username} 𝖣𝗈𝗇'𝗍 𝗌𝖾𝗇𝖽 𝗇𝖾𝗑𝗍 𝗍𝗂𝗆𝖾!")
+        await message.reply_text(f"@{message.from_user.username} 𝖣𝗈𝗇'𝗍 𝗌𝖾𝗇𝖽 𝗇𝖾𝗑𝗍 𝗍𝗂𝗆𝖾 otherwise you will be kicked!")
     elif any(keyword in message.caption for keyword in FORBIDDEN_KEYWORDS):
         logging.info(f"Deleting message with ID {message.id}")
         await message.delete()
        # user_mention = from_user.mention
-        await message.reply_text(f"@{message.from_user.username} 𝖣𝗈𝗇'𝗍 𝗌𝖾𝗇𝖽 𝗇𝖾𝗑𝗍 𝗍𝗂𝗆𝖾!")
+        await message.reply_text(f"@{message.from_user.username} 𝖣𝗈𝗇'𝗍 𝗌𝖾𝗇𝖽 𝗇𝖾𝗑𝗍 𝗍𝗂𝗆𝖾 otherwise you will be kicked!")
         
         
 # -------------------------------------------------------------------------------------
@@ -138,7 +137,7 @@ async def delete_edited_messages(client, edited_message):
 # ----------------------------------------------------------------------------------------------------
 # ------------------------------------------------------------------------------------------------------
 def delete_long_messages(_, m):
-    return len(m.text.split()) > 10
+    return len(m.text.split()) > 50
 
 @app.on_message(filters.group & filters.private & delete_long_messages)
 async def delete_and_reply(_, msg):
@@ -158,7 +157,7 @@ async def keep_reaction_message(client, message: Message):
 
 async def delete_pdf_files(client, message):
     if message.document and message.document.mime_type == "application/pdf":
-        warning_message = f"@{message.from_user.username} ᴍᴀᴀ ᴍᴀᴛ ᴄʜᴜᴅᴀ ᴘᴅғ ʙʜᴇᴊ ᴋᴇ,\n ʙʜᴏsᴀᴅɪᴋᴇ ᴄᴏᴘʏʀɪɢʜᴛ ʟᴀɢʏᴇɢᴀ \n\n ᴅᴇʟᴇᴛᴇ ᴋᴀʀ ᴅɪʏᴀ ᴍᴀᴅᴀʀᴄʜᴏᴅ.\n\n ᴀʙ @iam_daxx ʙʜᴀɪ ᴋᴇ ᴅᴍ ᴍᴇ ᴀᴘɴɪ ᴍᴜᴍᴍʏ ᴋᴏ ʙʜᴇᴊ ᴅᴇ 🍌🍌🍌."
+        warning_message = f"@{message.from_user.username} ᴍᴀᴀ ᴍᴀᴛ ᴄʜᴜᴅᴀ ᴘᴅғ ʙʜᴇᴊ ᴋᴇ,\n ʙʜᴏsᴀᴅɪᴋᴇ ᴄᴏᴘʏʀɪɢʜᴛ ʟᴀɢʏᴇɢᴀ \n\n ᴅᴇʟᴇᴛᴇ ᴋᴀʀ ᴅɪʏᴀ ᴍᴀᴅᴀʀᴄʜᴏᴅ.\n\n ᴀʙ @aayanokozi ʙʜᴀɪ ᴋᴇ ᴅᴍ ᴍᴇ ᴀᴘɴɪ ᴍᴜᴍᴍʏ ᴋᴏ ʙʜᴇᴊ ᴅᴇ 🍌🍌🍌."
         await message.reply_text(warning_message)
         await message.delete()
     else:  
